@@ -6,5 +6,5 @@ python:
 #install: "pip install -r requirements.txt"
 # command to run tests
 script:
-  - module_doctest.py
-  - module_unittest.py
+  - python module_doctest.py
+  - python module_unittest.py
